@@ -11,4 +11,4 @@ app.get('/', async (req, res) => {
   res.send(lyrics)
 })
 
-app.listen(4000)
+app.listen(process.env.PORT || 4000)
